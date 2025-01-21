@@ -33,6 +33,7 @@ async function main() {
 
   // 0QBCh-caGLbWWz74p1Q6NW-WqLmIOIOROAyHWgREnCgnYwaz
   // EQA4V9tF4lY2S_J-sEQR7aUj9IwW-Ou2vJQlCn--2DLOLR5e
+  // UQC3sMmFLkvCi1habbQyq1ooA1PAB2_oqG1e4wART5GYfpAe
 
   const walletContract = client.open(wallet);
   const seqno = await walletContract.getSeqno();
@@ -42,7 +43,7 @@ async function main() {
     secretKey: key.secretKey,
     messages: [
       internal({
-        to: "0QBCh-caGLbWWz74p1Q6NW-WqLmIOIOROAyHWgREnCgnYwaz",
+        to: "EQA4V9tF4lY2S_J-sEQR7aUj9IwW-Ou2vJQlCn--2DLOLR5e",
         value: "0.06",
         body: "Send by Daiyal",
         bounce: false,
